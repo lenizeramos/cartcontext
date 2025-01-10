@@ -1,8 +1,14 @@
 import "./App.css";
+import Sidebar from "./components/Sidebar";
+import StoreItems from "./components/StoreItems";
 
 function App() {
-  return <>
-  <h1>Hello Leni</h1></>;
+  return (
+    <>
+      <StoreItems />
+      <Sidebar />
+    </>
+  );
 }
 
 export default App;
