@@ -15,7 +15,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       } transition-transform`}
     >
       <button className="text-gray-500 p-4" onClick={onClose}>
-        X
+      <i className="fa-solid fa-x"></i>
       </button>
       <h2 className="text-lg font-bold px-4">Cart Items</h2>
       <ul className="p-4">

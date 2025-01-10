@@ -18,7 +18,7 @@ const CartProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const addToCart = (item: CartItem) => {
-    console.log("Added to cart")
+    //console.log("Added to cart")
     setCartItems((prevItems) => [...prevItems, item]);
   };
 
