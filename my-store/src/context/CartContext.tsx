@@ -39,4 +39,4 @@ const useCart = () => {
   return context;
 };
 
-export {CartProvider, CartContext,useCart};
+export {CartProvider, CartContext, useCart};
