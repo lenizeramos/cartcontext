@@ -1,6 +1,6 @@
 import { useCart } from "../context/CartContext";
 
-interface StoreItem {
+export interface StoreItem {
   id: number;
   name: string;
   price: number;
@@ -59,7 +59,7 @@ const StoreItems = ({ openSidebar }: StoreItemsProps) => {
           <h1 className="text-4xl text-center">Shop Store</h1>
         </header>
         <main className="mx-auto px-20">
-          <ul className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 justify-center ">
+          <ul className="p-4 pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center ">
             {items.map((item) => (
               <li
                 key={item.id}
